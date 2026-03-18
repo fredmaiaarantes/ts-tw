@@ -12,6 +12,7 @@ Meteor 3.4 app with React 18 frontend and Tailwind CSS v4 styling, written in Ty
 - **Unit tests:** `meteor test --once --driver-package meteortesting:mocha`
 - **Full-app tests (watch mode):** `TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha`
 - **Bundle analysis:** `meteor --production --extra-packages bundle-visualizer`
+- **Generate types:** `meteor lint` (uses `zodern:types` to generate TypeScript definitions for Meteor packages)
 
 ## Architecture
 
